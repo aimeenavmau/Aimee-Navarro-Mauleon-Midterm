@@ -1,0 +1,82 @@
+
+body {
+    font-family: "Kavoon", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: white;
+    color: #000000;
+    margin: 0;
+}
+
+/* Header */
+
+header {
+    background-color: #0e6714;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+
+/* Main content */
+
+main {
+    width: 85%;
+    margin: 20px auto;
+}
+
+section {
+    background-color: #ffba44;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+
+/* Headings */
+
+h2 {
+    color: #0e6714;
+}
+
+/* Landscaping picture */
+
+img {
+    width: 70%;
+    max-width: 450px;
+    height: auto;
+    display: block by side by side;
+    margin: 15px auto;
+}
+
+/* Services list */
+
+li {
+    margin-bottom: 10px;
+}
+
+
+
+footer {
+    background-color: #21603a;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
+
+/* Make the website fit smaller screens */
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 25px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    main {
+        width: 92%;
+    }
+}
